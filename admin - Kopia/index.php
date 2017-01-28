@@ -1,12 +1,8 @@
 <?php include "includes/header.php" ?>
 
+    <div id="wrapper">
 
-<div id="wrapper">
-
-    <?php if($connection) echo "work";?>
-
-        <!-- Navigation -->
-<?php include "includes/navigation.php" ?>
+    <?php include "includes/navigation.php" ?>
 
         <div id="page-wrapper">
 
@@ -33,10 +29,7 @@
 
             </div>
             <!-- /.container-fluid -->
-
         </div>
         <!-- /#page-wrapper -->
 
-    </div>
-    <!-- /#wrapper -->
-<?php include "includes/footer.php" ?>
+<?php include "includes/header.php" ?>
